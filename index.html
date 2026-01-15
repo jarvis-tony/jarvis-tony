@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全栈开发者 - 个人作品集</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">我的网站</div>
+            <ul class="nav-menu">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>你好，我是全栈开发者</h1>
+            <p>致力于构建高效、创新的Web应用程序</p>
+            <a href="#about" class="btn">了解更多</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于我</h2>
+            <div class="profile-card">
+                <div class="profile-image">
+                    <div class="placeholder-avatar"></div>
+                </div>
+                <div class="profile-content">
+                    <h3>全栈开发者</h3>
+                    <p>我是一名经验丰富的全栈开发者，专注于构建现代化的Web应用程序。我具备前端和后端开发的全面技能，能够独立完成整个项目的开发流程。</p>
+                    <p>我对新技术充满热情，不断学习并应用最新的开发实践来提升用户体验和系统性能。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>技能</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>前端技术</h3>
+                    <ul>
+                        <li>HTML5 / CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js</li>
+                        <li>Vue.js</li>
+                        <li>TypeScript</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>后端技术</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>Python</li>
+                        <li>Django</li>
+                        <li>RESTful API设计</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>数据库</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>MongoDB</li>
+                        <li>PostgreSQL</li>
+                        <li>Redis</li>
+                    </ul>
+                </div>
+                <div class="skill-card">
+                    <h3>其他技能</h3>
+                    <ul>
+                        <li>Git版本控制</li>
+                        <li>Docker容器化</li>
+                        <li>云服务部署</li>
+                        <li>测试驱动开发</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>项目展示</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>电商网站</h3>
+                        <p>使用React和Node.js构建的完整电商平台，包含用户认证、支付集成和管理后台等功能。</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>任务管理系统</h3>
+                        <p>团队协作工具，支持任务分配、进度跟踪和实时通知功能，提高工作效率。</p>
+                        <div class="tech-stack">
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image"></div>
+                    <div class="project-content">
+                        <h3>数据分析仪表板</h3>
+                        <p>可视化数据展示平台，支持多种图表类型和交互式数据分析功能。</p>
+                        <div class="tech-stack">
+                            <span>Angular</span>
+                            <span>Python</span>
+                            <span>D3.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>联系我</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>获取联系</h3>
+                    <p>如果您有任何问题或合作意向，请随时与我联系！</p>
+                    <div class="contact-details">
+                        <p><strong>邮箱:</strong> developer@example.com</p>
+                        <p><strong>电话:</strong> +86 123-4567-8900</p>
+                        <p><strong>位置:</strong> 中国</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">姓名</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">邮箱</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">消息</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">发送消息</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 全栈开发者. 版权所有.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
